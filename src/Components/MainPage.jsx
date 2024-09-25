@@ -3,7 +3,6 @@ import MukeGue from '../assets/muke-gue.png';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-// Hook untuk inisialisasi AOS (Animasi on Scroll)
 const useAOS = () => {
   useEffect(() => {
     AOS.init({
@@ -14,7 +13,6 @@ const useAOS = () => {
   }, []);
 };
 
-// Komponen untuk bagian judul dan deskripsi
 const HeroText = () => (
   <div className="h-full lg:py-40 flex flex-col justify-center lg:items-start items-center text-white">
     <h1 data-aos="fade-right" className="text-[52px] font-semibold mb-8 leading-normal">
@@ -27,7 +25,6 @@ const HeroText = () => (
   </div>
 );
 
-// Komponen untuk gambar profil
 const ProfileImage = () => (
   <img
     data-aos="fade-up"
@@ -37,9 +34,8 @@ const ProfileImage = () => (
   />
 );
 
-// Komponen Utama Halaman
 const MainPage = () => {
-  useAOS(); // Memanggil hook untuk inisialisasi AOS
+  useAOS();
 
   return (
     <div
