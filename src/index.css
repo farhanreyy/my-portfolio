@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
 .glow {
   transition: all 0.3s ease-in-out;
 }
@@ -11,7 +21,7 @@
 }
 
 .neno-button {
-  transform: all 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
 }
 
 .neno-button:hover {
@@ -24,4 +34,5 @@ body::-webkit-scrollbar {
 
 body {
   overflow-x: hidden;
+  width: 100vw;
 }
