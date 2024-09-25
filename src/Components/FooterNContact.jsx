@@ -33,14 +33,14 @@ const Footer = () => (
       </div>
 
       <p className="text-lg mb-4">
-        Call Us:
+        Call Us:{''}
         <a
           href="https://wa.me/62811743070"
           target="_blank"
           rel="noopener noreferrer"
           className="text-xl text-white hover:text-purple-600 transition-transform duration-300 hover:scale-105 cursor-pointer"
         >
-          +62 811-743-070
+          {''} +62 811-743-070
         </a>
       </p>
 

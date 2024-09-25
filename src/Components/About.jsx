@@ -5,7 +5,7 @@ const SectionTitle = ({ title }) => {
   return (
     <h2
       data-aos="fade-down"
-      className="text-center text-[52px] md:text-[52px] font-semibold mb-10 md:mb-20 leading-normal uppercase bg-gradient-to-r text-transparent bg-clip-text from-white to bg-purple-600"
+      className="text-center text-3xl md:text-4xl lg:text-5xl font-semibold mb-10 md:mb-16 lg:mb-20 leading-normal uppercase bg-gradient-to-r text-transparent bg-clip-text from-white to bg-purple-600"
     >
       {title}
     </h2>
