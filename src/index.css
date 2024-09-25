@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.glow {
+  transition: all 0.3s ease-in-out;
+}
+
+.glow:hover {
+  box-shadow: 0 0 15px rgb(206, 71, 192);
+}
+
+.neno-button {
+  transform: all 0.3s ease-in-out;
+}
+
+.neno-button:hover {
+  box-shadow: 0 0 15px rgb(206, 71, 192);
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
