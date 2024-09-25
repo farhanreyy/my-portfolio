@@ -9,10 +9,10 @@ const socialLinks = [
 
 const Footer = () => (
   <footer className="bg-slate-900 opacity-90 py-10" id="Contact">
-    <div className="max-w-screen-xl mx-auto flex flex-col items-center text-center text-white">
+    <div className="max-w-screen-xl mx-auto px-4 md:px-8 lg:px-12 flex flex-col items-center text-center text-white">
       <h2
         data-aos="fade-down"
-        className="text-2xl font-semibold mb-4 leading-normal uppercase bg-gradient-to-r text-transparent bg-clip-text from-white to bg-purple-600"
+        className="text-2xl md:text-3xl font-semibold mb-4 leading-normal uppercase bg-gradient-to-r text-transparent bg-clip-text from-white to bg-purple-600"
       >
         Connect Me on Social Media
       </h2>
@@ -24,7 +24,7 @@ const Footer = () => (
             href={href}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-4xl text-white hover:text-purple-600 transform transition-transform duration-300 hover:scale-110 hover:rotate-6 cursor-pointer"
+            className="text-4xl md:text-5xl text-white hover:text-purple-600 transform transition-transform duration-300 hover:scale-110 hover:rotate-6 cursor-pointer"
             aria-label={label}
           >
             {icon}
@@ -32,19 +32,19 @@ const Footer = () => (
         ))}
       </div>
 
-      <p className="text-lg mb-4">
-        Call Us:{''}
+      <p className="text-lg md:text-xl mb-4">
+        Call Us:{' '}
         <a
           href="https://wa.me/62811743070"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-xl text-white hover:text-purple-600 transition-transform duration-300 hover:scale-105 cursor-pointer"
+          className="text-lg md:text-xl text-white hover:text-purple-600 transition-transform duration-300 hover:scale-105 cursor-pointer"
         >
-          {''} +62 811-743-070
+          +62 811-743-070
         </a>
       </p>
 
-      <p className="text-sm">© 2024 Farhan Reypialfarizi</p>
+      <p className="text-sm md:text-base">© 2024 Farhan Reypialfarizi</p>
     </div>
   </footer>
 );

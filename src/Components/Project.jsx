@@ -12,20 +12,20 @@ const projects = [
 ];
 
 const Project = () => (
-  <div className="p-10 flex flex-col items-center" id="Projects">
+  <div className="p-6 md:p-10 lg:p-14 flex flex-col items-center" id="Projects">
     <h1
       data-aos="fade-down"
-      className="text-3xl md:text-4xl lg:text-5xl font-semibold mb-10 md:mb-16 lg:mb-20 leading-normal uppercase bg-gradient-to-r text-transparent bg-clip-text from-white to bg-purple-600"
+      className="text-3xl md:text-4xl lg:text-5xl font-semibold mb-8 md:mb-12 lg:mb-16 leading-normal uppercase bg-gradient-to-r text-transparent bg-clip-text from-white to bg-purple-600"
     >
       Projects
     </h1>
 
-    <div className="w-full grid grid-cols-1 sm:grid-cols-2 gap-10 md:gap-16 lg:gap-20">
+    <div className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8 md:gap-12 lg:gap-16">
       {projects.map((project, index) => (
         <div key={index} className="flex flex-col items-center" data-aos={index % 2 === 0 ? 'fade-right' : 'fade-left'}>
           <div className="flex justify-center rounded-3xl p-1 border-2 border-purple-600">
             <img
-              className="w-[300px] h-[200px] sm:w-[400px] sm:h-[250px] md:w-[500px] md:h-[300px] lg:w-[600px] lg:h-[350px] rounded-3xl object-cover"
+              className="w-[260px] h-[180px] sm:w-[350px] sm:h-[220px] md:w-[450px] md:h-[280px] lg:w-[550px] lg:h-[320px] rounded-3xl object-cover"
               src={project.src}
               alt={project.alt}
             />

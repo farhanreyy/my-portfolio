@@ -28,7 +28,7 @@ const AboutText = () => {
 const ResumeButton = () => {
   return (
     <button
-      className="uppercase relative overflow-hidden rounded-lg px-10 py-4 shadow-x1 hover:shadow-purple-600/50 hover:bg-purple-600 
+      className="uppercase relative overflow-hidden rounded-lg px-10 py-4 shadow-xl hover:shadow-purple-600/50 hover:bg-purple-600 
                  border-2 border-purple-600 text-white inline-block transform transition-transform duration-300 hover:scale-105 cursor-pointer"
     >
       Resume
@@ -39,9 +39,9 @@ const ResumeButton = () => {
 const About = () => {
   return (
     <div className="text-white min-h-screen flex items-center justify-center" id="About">
-      <div className="container mx-auto px-8 md:px-16 lg:px-24 flex flex-col justify-center">
+      <div className="container mx-auto px-4 sm:px-8 md:px-12 lg:px-16 flex flex-col justify-center">
         <SectionTitle title="About Me" />
-        <div className="flex flex-col md:flex-row items-center md:space-x-12">
+        <div className="flex flex-col md:flex-row items-center md:space-x-12 w-full">
           <ProfileImage imageSrc={AboutImage} />
           <div className="flex-1 flex flex-col items-center md:items-start text-center md:text-left">
             <AboutText />
