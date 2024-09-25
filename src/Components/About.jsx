@@ -13,7 +13,7 @@ const SectionTitle = ({ title }) => {
 };
 
 const ProfileImage = ({ imageSrc }) => {
-  return <img data-aos="fade-down" src={imageSrc} alt="About" className="w-64 h-64 md:w-72 md:h-80 rounded-full object-cover mb-8 md:mb-0" />;
+  return <img data-aos="fade-right" src={imageSrc} alt="About" className="w-64 h-64 md:w-72 md:h-80 rounded-full object-cover mb-8 md:mb-0" />;
 };
 
 const AboutText = () => {
