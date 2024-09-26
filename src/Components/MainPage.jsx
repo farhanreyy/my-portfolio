@@ -15,11 +15,11 @@ const useAOS = () => {
 
 const HeroText = () => (
   <div className="flex flex-col justify-center items-center text-white text-center lg:text-center">
-    <h1 data-aos="fade-right" className="text-[42px] lg:text-[52px] font-semibold mb-6 lg:mb-8 leading-normal">
+    <h1 data-aos="fade-right" className="text-3xl md:text-4xl lg:text-5xl font-semibold mb-6 lg:mb-8 leading-normal">
       <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-purple-600">Farhan Reypialfarizi</span>,{' '}
       <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-purple-600">Front-end Developer & Data Science Enthusiast</span>.
     </h1>
-    <p data-aos="fade-left" data-aos-delay="200" className="text-lg lg:text-xl">
+    <p data-aos="fade-left" data-aos-delay="200" className="text-base md:text-lg">
       Hi, Welcome to my web portfolio. Here, you can find my work and projects that I have developed.
     </p>
   </div>
