@@ -18,9 +18,10 @@ const ProfileImage = ({ imageSrc }) => {
 
 const AboutText = () => {
   return (
-    <p data-aos="fade-left" className="text-base md:text-lg mb-8">
-      I’m passionate about creating responsive, modern, and user-friendly interfaces. I’m always eager to learn and stay updated with the latest
-      trends in web development, and I’m committed to delivering effective and innovative solutions.
+    <p data-aos="fade-left" className="text-base md:text-lg mb-8 text-justify">
+      I’m passionate about building responsive front-end while exploring the world of data science and networking. My work combines creativity and
+      functionality to create impactful web experiences, leveraging the power of data and modern technologies. Explore my projects and see how I bring
+      ideas to life through code. Please explore my portfolio, and hopefully it will inspire you!
     </p>
   );
 };
