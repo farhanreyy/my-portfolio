@@ -33,7 +33,7 @@ const Footer = () => (
       </div>
 
       <p className="text-lg md:text-xl mb-4">
-        Call Us:{' '}
+        Call:{' '}
         <a
           href="https://wa.me/62811743070"
           target="_blank"
@@ -44,7 +44,7 @@ const Footer = () => (
         </a>
       </p>
 
-      <p className="text-sm md:text-base">Created by Farhan Reypialfarizi</p>
+      <p className="text-sm md:text-base">Created ❤️ by Farhan Reypialfarizi | Inpsired by Coderflix</p>
     </div>
   </footer>
 );
