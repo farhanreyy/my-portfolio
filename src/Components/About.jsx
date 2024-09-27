@@ -19,7 +19,7 @@ const ProfileImage = ({ imageSrc }) => {
 const AboutText = () => {
   return (
     <p data-aos="fade-left" className="text-base md:text-lg mb-8 text-justify">
-      I’m passionate about building responsive front-end while exploring the world of Data Science and Networking. My work combines creativity and
+      I’m passionate about building responsive front-end while exploring the world of Machine Learning and Networking. My work combines creativity and
       functionality to create impactful web experiences, leveraging the power of data and modern technologies. Explore my projects and see how I bring
       ideas to life through code. Please explore my portfolio, and hopefully it will inspire you!
     </p>
