@@ -44,7 +44,7 @@ const Footer = () => (
         </a>
       </p>
 
-      <p className="text-sm md:text-base">Created ❤️ by Farhan Reypialfarizi | Inpsired by Coderflix</p>
+      <p className="text-sm md:text-base">Created with ❤️ by Farhan Reypialfarizi | Inpsired by Coderflix</p>
     </div>
   </footer>
 );
