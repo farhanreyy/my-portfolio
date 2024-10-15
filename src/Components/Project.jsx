@@ -1,12 +1,12 @@
 import React from 'react';
 import Project1 from '../assets/project1.png';
-import Project2 from '../assets/coming.png';
+import Project2 from '../assets/project2.png';
 import Project3 from '../assets/coming.png';
 import Project4 from '../assets/coming.png';
 
 const projects = [
-  { src: Project1, alt: 'Project 1', description: 'My Web Portfolio was built using React.js, Vite, and Tailwind CSS' },
-  { src: Project2, alt: 'Project 2', description: 'Coming Soon' },
+  { src: Project1, alt: 'Project 1', description: 'My Web Portfolio was built using React.js + Vite and Tailwind CSS' },
+  { src: Project2, alt: 'Project 2', description: 'Admin Dashboard for online business using React.js + Vite and Tailwind CSS (Work in Progress) ' },
   { src: Project3, alt: 'Project 3', description: 'Coming Soon' },
   { src: Project4, alt: 'Project 4', description: 'Coming Soon' },
 ];
