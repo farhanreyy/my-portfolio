@@ -28,12 +28,15 @@ const AboutText = () => {
 
 const ResumeButton = () => {
   return (
-    <button
+    <a
+      href="https://drive.google.com/file/d/13bLNZjCY-UcNQqG2xajV8WtXcDxpFaDn/view?usp=sharing"
+      target="_blank"
+      rel="noopener noreferrer"
       className="uppercase relative overflow-hidden rounded-lg px-10 py-4 shadow-xl hover:shadow-purple-600/50 hover:bg-purple-600 
                  border-2 border-purple-600 text-white inline-block transform transition-transform duration-300 hover:scale-105 cursor-pointer"
     >
       Resume
-    </button>
+    </a>
   );
 };
 
