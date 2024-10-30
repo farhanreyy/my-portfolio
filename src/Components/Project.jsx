@@ -6,7 +6,11 @@ import Project4 from '../assets/coming.png';
 
 const projects = [
   { src: Project1, alt: 'Project 1', description: 'My Web Portfolio was built using React.js + Vite and Tailwind CSS' },
-  { src: Project2, alt: 'Project 2', description: 'Admin Dashboard for online business using React.js + Vite and Tailwind CSS (Work in Progress) ' },
+  {
+    src: Project2,
+    alt: 'Project 2',
+    description: 'Admin Dashboard for online business\nusing React.js + Vite and Tailwind CSS (Work in Progress)',
+  },
   { src: Project3, alt: 'Project 3', description: 'Coming Soon' },
   { src: Project4, alt: 'Project 4', description: 'Coming Soon' },
 ];
@@ -30,7 +34,9 @@ const Project = () => (
               alt={project.alt}
             />
           </div>
-          <p className="mt-4 text-sm md:text-base lg:text-lg text-white text-center leading-6 lg:leading-8">{project.description}</p>
+          <p className="mt-4 text-sm md:text-base lg:text-lg text-white text-center leading-6 lg:leading-8 whitespace-pre-line">
+            {project.description}
+          </p>
         </div>
       ))}
     </div>
