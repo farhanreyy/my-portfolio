@@ -40,7 +40,7 @@ const Footer = () => (
           rel="noopener noreferrer"
           className="text-lg md:text-xl text-white hover:text-purple-600 transition-transform duration-300 hover:scale-105 cursor-pointer"
         >
-          +62 811-743-070
+          +62 851-1702-7192
         </a>
       </p>
 
