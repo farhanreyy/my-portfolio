@@ -35,7 +35,7 @@ const Footer = () => (
       <p className="text-lg md:text-xl mb-4">
         Call:{' '}
         <a
-          href="https://wa.me/62811743070"
+          href="https://wa.me/6285117027192"
           target="_blank"
           rel="noopener noreferrer"
           className="text-lg md:text-xl text-white hover:text-purple-600 transition-transform duration-300 hover:scale-105 cursor-pointer"
