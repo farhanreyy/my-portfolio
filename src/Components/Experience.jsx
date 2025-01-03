@@ -25,11 +25,22 @@ const Experience = () => {
         <div data-aos="fade-right" className="grid gap-y-8">
           <TextExperience
             date={'July 2023 - Aug 2023'}
-            company={'Divisi Service Operation PT. Telkom Indonesia'}
+            company={'Divisi Service Operation at PT. Telkom Indonesia'}
             details={
               'I interned as a Development of an Open Source application called Internet Exchange Point Manager (IXP Manager). This application is used for customer monitoring and storing technical data, such as Switches, Switch Ports, Routers, Customer Data, and Multi Router Traffic Grapher (MRTG).'
             }
           />
+        </div>
+        <div>
+          <div data-aos="fade-right" className="grid gap-y-8">
+            <TextExperience
+              date={'January 2025 - Present'}
+              company={'Network & Security Engineer at PT. Sigma Cipta Caraka (Telkomsigma)'}
+              details={
+                'Network Monitoring, Security Operations, Incident Response, Privileged Accsess Management, Vulnerability Scanning, SOP Development, and Reporting.'
+              }
+            />
+          </div>
         </div>
       </div>
     </div>
