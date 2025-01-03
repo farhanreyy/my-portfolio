@@ -29,7 +29,7 @@ const AboutText = () => {
 const ResumeButton = () => {
   return (
     <a
-      href="https://drive.google.com/file/d/13bLNZjCY-UcNQqG2xajV8WtXcDxpFaDn/view?usp=sharing"
+      href="https://drive.google.com/file/d/1d3aOMVz4I81ze0OlZlU6JRbtU2MzDADs/view?usp=sharing"
       target="_blank"
       rel="noopener noreferrer"
       className="uppercase relative overflow-hidden rounded-lg px-10 py-4 shadow-xl hover:shadow-purple-600/50 hover:bg-purple-600 
