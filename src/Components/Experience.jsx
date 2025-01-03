@@ -37,7 +37,7 @@ const Experience = () => {
               date={'January 2025 - Present'}
               company={'Network & Security Engineer at PT. Sigma Cipta Caraka (Telkomsigma)'}
               details={
-                'Network Monitoring, Security Operations, Incident Response, Privileged Accsess Management, Vulnerability Scanning, SOP Development, and Reporting.'
+                "I'm currently responsible to Network Monitoring, Security Operations, Incident Response, Privileged Accsess Management, Vulnerability Scanning, SOP Development, and Reporting."
               }
             />
           </div>
