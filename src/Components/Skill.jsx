@@ -2,6 +2,7 @@ import React from 'react';
 import { FaHtml5, FaCss3, FaPython } from 'react-icons/fa';
 import { SiJavascript } from 'react-icons/si';
 import { RiReactjsFill, RiTailwindCssFill } from 'react-icons/ri';
+import { SiTensorflow, SiKeras, SiPytorch } from 'react-icons/si';
 
 const SkillItem = ({ icon: Icon, label, aosAnimation }) => (
   <div
@@ -22,6 +23,9 @@ const Skill = () => {
     { icon: FaPython, label: 'Python', animation: 'fade-right' },
     { icon: RiReactjsFill, label: 'ReactJS', animation: 'fade-up' },
     { icon: RiTailwindCssFill, label: 'Tailwind CSS', animation: 'fade-left' },
+    { icon: SiTensorflow, label: 'Tensorflow', animation: 'fade-right' },
+    { icon: SiKeras, label: 'Keras', animation: 'fade-down' },
+    { icon: SiPytorch, label: 'Pytorch', animation: 'fade-left' },
   ];
 
   return (
