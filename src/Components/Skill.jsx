@@ -23,7 +23,7 @@ const Skill = () => {
     { icon: FaPython, label: 'Python', animation: 'fade-right' },
     { icon: RiReactjsFill, label: 'ReactJS', animation: 'fade-up' },
     { icon: RiTailwindCssFill, label: 'Tailwind CSS', animation: 'fade-left' },
-    { icon: SiTensorflow, label: 'Tensorflow', animation: 'fade-right' },
+    { icon: SiTensorflow, label: 'TensorFlow', animation: 'fade-right' },
     { icon: SiKeras, label: 'Keras', animation: 'fade-down' },
     { icon: SiPytorch, label: 'Pytorch', animation: 'fade-left' },
   ];
