@@ -25,7 +25,7 @@ const Experience = () => {
         <div data-aos="fade-right" className="grid gap-y-8">
           <TextExperience
             date={'July 2023 - Aug 2023'}
-            company={'Divisi Service Operation at PT. Telkom Indonesia'}
+            company={'Service Operation at PT. Telkom Indonesia'}
             details={
               'I interned as a Development of an Open Source application called Internet Exchange Point Manager (IXP Manager). This application is used for customer monitoring and storing technical data, such as Switches, Switch Ports, Routers, Customer Data, and Multi Router Traffic Grapher (MRTG).'
             }
