@@ -18,7 +18,7 @@ const MenuItem = ({ item }) => (
 
 const DesktopMenu = () => (
   <ul className="hidden lg:flex gap-6 text-white">
-    {['Home', 'About', 'Skills', 'Experience', 'Projects', 'Contact'].map((item) => (
+    {['Home', 'About', 'Skills', 'Experience', 'Contact'].map((item) => (
       <MenuItem key={item} item={item} />
     ))}
   </ul>
@@ -33,7 +33,7 @@ const MobileMenuToggle = ({ isMenuOpen, onToggleMenu }) => (
 const MobileDropdownMenu = ({ isMenuOpen }) =>
   isMenuOpen && (
     <ul className="lg:hidden flex flex-col items-center bg-black text-white text-lg py-6 space-y-3">
-      {['Home', 'About', 'Skills', 'Experience', 'Projects', 'Contact'].map((item) => (
+      {['Home', 'About', 'Skills', 'Experience', 'Contact'].map((item) => (
         <MenuItem key={item} item={item} />
       ))}
     </ul>
