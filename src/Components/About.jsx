@@ -19,9 +19,14 @@ const ProfileImage = ({ imageSrc }) => {
 const AboutText = () => {
   return (
     <p data-aos="fade-left" className="text-base md:text-lg mb-8 text-justify">
-      I’m passionate about building responsive front-end while exploring the world of Machine Learning and Network. My work combines creativity and
-      functionality to create impactful web experiences, leveraging the power of data and modern technologies. Explore my projects and see how I bring
-      ideas to life through code. Please explore my portfolio, and hopefully it will inspire you!
+      Network & Security Engineer with hands-on experience in enterprise network monitoring, security operations, and incident
+response within intranet and data center environments. Experienced in operating and monitoring network and security
+infrastructure using SolarWinds, OpManager, and Cacti, as well as managing Palo Alto Next-Generation Firewalls, VPN,
+Trend Micro Deep Security (EDR), Cortex XDR, and IronPort ESA. Skilled in handling security incidents, firewall and
+VPN outages, CVE identification, and remediation planning. Proficient in Privileged Access Management (PAM) using
+CyberArk for operational whitelisting and basic troubleshooting. Responsible for core network and firewall software
+upgrades, root cause analysis, quarterly device evaluation and reporting, and preventive physical maintenance to ensure
+system availability, security, and compliance.
     </p>
   );
 };
@@ -29,7 +34,7 @@ const AboutText = () => {
 const ResumeButton = () => {
   return (
     <a
-      href="https://drive.google.com/file/d/1d3aOMVz4I81ze0OlZlU6JRbtU2MzDADs/view?usp=sharing"
+      href=""
       target="_blank"
       rel="noopener noreferrer"
       className="uppercase relative overflow-hidden rounded-lg px-10 py-4 shadow-xl hover:shadow-purple-600/50 hover:bg-purple-600 

@@ -2,7 +2,7 @@ import React from 'react';
 import { FaHtml5, FaCss3, FaPython } from 'react-icons/fa';
 import { SiJavascript } from 'react-icons/si';
 import { RiReactjsFill, RiTailwindCssFill } from 'react-icons/ri';
-import { SiTensorflow, SiKeras, SiPytorch } from 'react-icons/si';
+import { SiTensorflow, SiKeras, SiPytorch, SiSiPaloaltonetworks, SiCisco  } from 'react-icons/si';
 
 const SkillItem = ({ icon: Icon, label, aosAnimation }) => (
   <div
