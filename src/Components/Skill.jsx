@@ -17,7 +17,7 @@ const SkillItem = ({ icon: Icon, label, aosAnimation }) => (
 
 const Skill = () => {
   const skills = [
-    { icon: SiSiPaloaltonetworks, label: 'NGFW Palo Alto Networks', animation: 'fade-right' },
+    { icon: SiPaloaltonetworks, label: 'NGFW Palo Alto Networks', animation: 'fade-right' },
     { icon: SiCisco, label: 'Cisco', animation: 'fade-down' },
     { icon: SiJavascript, label: 'JavaScript', animation: 'fade-left' },
     { icon: FaPython, label: 'Python', animation: 'fade-right' },
