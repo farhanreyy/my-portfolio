@@ -17,8 +17,8 @@ const SkillItem = ({ icon: Icon, label, aosAnimation }) => (
 
 const Skill = () => {
   const skills = [
-    { icon: FaHtml5, label: 'HTML5', animation: 'fade-right' },
-    { icon: FaCss3, label: 'CSS3', animation: 'fade-down' },
+    { icon: SiSiPaloaltonetworks, label: 'NGFW Palo Alto Networks', animation: 'fade-right' },
+    { icon: SiCisco, label: 'CSS3', animation: 'fade-down' },
     { icon: SiJavascript, label: 'JavaScript', animation: 'fade-left' },
     { icon: FaPython, label: 'Python', animation: 'fade-right' },
     { icon: RiReactjsFill, label: 'ReactJS', animation: 'fade-up' },
