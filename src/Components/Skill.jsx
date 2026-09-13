@@ -1,8 +1,6 @@
 import React from 'react';
-import { FaHtml5, FaCss3, FaPython } from 'react-icons/fa';
-import { SiJavascript } from 'react-icons/si';
-import { RiReactjsFill, RiTailwindCssFill } from 'react-icons/ri';
-import { SiTensorflow, SiKeras, SiPytorch, SiPaloaltonetworks, SiCisco  } from 'react-icons/si';
+import { FaPython, FaShieldAlt, FaNetworkWired } from 'react-icons/fa';
+import { SiTensorflow, SiPaloaltonetworks, SiCisco  } from 'react-icons/si';
 
 const SkillItem = ({ icon: Icon, label, aosAnimation }) => (
   <div
@@ -17,15 +15,12 @@ const SkillItem = ({ icon: Icon, label, aosAnimation }) => (
 
 const Skill = () => {
   const skills = [
-    { icon: SiPaloaltonetworks, label: 'NGFW Palo Alto Networks', animation: 'fade-right' },
+    { icon: SiPaloaltonetworks, label: 'Palo Alto NGFW', animation: 'fade-right' },
     { icon: SiCisco, label: 'Cisco', animation: 'fade-down' },
-    { icon: SiJavascript, label: 'JavaScript', animation: 'fade-left' },
     { icon: FaPython, label: 'Python', animation: 'fade-right' },
-    { icon: RiReactjsFill, label: 'ReactJS', animation: 'fade-up' },
-    { icon: RiTailwindCssFill, label: 'Tailwind CSS', animation: 'fade-left' },
-    { icon: SiTensorflow, label: 'TensorFlow', animation: 'fade-right' },
-    { icon: SiKeras, label: 'Keras', animation: 'fade-down' },
-    { icon: SiPytorch, label: 'PyTorch', animation: 'fade-left' },
+    { icon: FaShieldAlt, label: 'Incident Response', animation: 'fade-left' },
+    { icon: FaNetworkWired, label: 'Network Monitoring', animation: 'fade-right' },
+    { icon: SiTensorflow, label: 'Machine Learning', animation: 'fade-down' },
   ];
 
   return (
