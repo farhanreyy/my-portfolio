@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaPython, FaShieldAlt, FaNetworkWired } from 'react-icons/fa';
+import { FaPython, FaShieldAlt, FaNetworkWired, FaUserShield } from 'react-icons/fa';
 import { SiTensorflow, SiPaloaltonetworks, SiCisco  } from 'react-icons/si';
 
 const SkillItem = ({ icon: Icon, label, aosAnimation }) => (
@@ -15,12 +15,12 @@ const SkillItem = ({ icon: Icon, label, aosAnimation }) => (
 
 const Skill = () => {
   const skills = [
-    { icon: SiPaloaltonetworks, label: 'Palo Alto NGFW', animation: 'fade-right' },
+    { icon: SiPaloaltonetworks, label: 'Palo Alto NGFW', animation: 'fade-down' },
     { icon: SiCisco, label: 'Cisco', animation: 'fade-down' },
-    { icon: FaPython, label: 'Python', animation: 'fade-right' },
-    { icon: FaShieldAlt, label: 'Incident Response', animation: 'fade-left' },
-    { icon: FaNetworkWired, label: 'Network Monitoring', animation: 'fade-right' },
-    { icon: SiTensorflow, label: 'Machine Learning', animation: 'fade-down' },
+    { icon: FaPython, label: 'Python', animation: 'fade-down' },
+    { icon: FaShieldAlt, label: 'Incident Response', animation: 'fade-down' },
+    { icon: FaNetworkWired, label: 'Network Monitoring', animation: 'fade-down' },
+    { icon: FaUserShield, label: 'PAM CyberArk', animation: 'fade-down' },
   ];
 
   return (
